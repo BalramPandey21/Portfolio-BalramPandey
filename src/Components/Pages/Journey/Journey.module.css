@@ -1,0 +1,58 @@
+.myJourney-heading{
+    background-color: #081B29; 
+    padding: 0.5rem ;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.journey-wrapper{
+    background-color: #081B29;
+    padding: 0.5rem ;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem ;
+    justify-content: space-between;
+    
+}
+
+.education-wrapper{
+width: 45%;
+text-align: left;
+padding: 0.5rem;
+margin: 0.5rem;
+display: flex;
+flex-direction: column;
+}
+.journey-heading{
+font-size: large;
+line-height: 22px ;
+font-weight: 600;
+padding: 0.5rem;
+
+}
+
+.journey-box{
+    border: 2px solid #00ABF0;
+    border-radius: 12px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.calender-div{
+    color: #00ABF0;
+    padding: 0.25rem;
+    font-weight: 600;
+}
+
+.education-title-div{
+    font-size: large;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+
+.education-description-div{
+    padding: 0.5rem;
+}

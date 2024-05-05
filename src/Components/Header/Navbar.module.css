@@ -1,0 +1,29 @@
+.Navbar-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background-color: #081B29;
+    color: white;
+    justify-content: space-between;
+    font-size: large;
+}
+.logo-name-wrapper{
+display: flex;
+}
+.home-about-project-contect-wrapper{
+display: flex;
+}
+.image-wrapper{
+
+}
+.logo{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.navbar-item{
+    padding: 0.5rem;
+}
+.navbar-item:active{
+    color: #00ABF0;
+}

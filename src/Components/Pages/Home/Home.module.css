@@ -1,0 +1,73 @@
+.Home-wrapper{
+    background-color: #081B29;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.Home-description-wrapper{
+    width:55%;
+    padding: 1rem;
+    text-align: left;
+}
+.para{
+    line-height: 30px;
+    font-size: larger;
+
+}
+.Home-image-wrapper{
+    width: 35%;
+    padding: 1rem;
+}
+
+.Background-image{
+    width: 20rem;
+    height: 25rem;
+    padding: 1rem;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    transition: transform 0.2s;
+
+}
+.Background-image:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.name-span{
+    font-size: x-large;
+    line-height: 30px;
+}
+.degignation-span{
+    font-size: x-large;
+    line-height: 30px;
+    color:  #00ABF0;
+
+}
+
+.social-media-links{
+    display: flex;
+
+}
+
+.social-media-icon{
+    background-color: #081B29;
+    border-radius: 50%;
+    border: 2px solid #00ABF0 ;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-image: linear-gradient(to right, #bde6f7 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: background-position 0.5s ease;
+}
+.social-media-icon:hover{
+        background-position: left bottom;
+}
+
+.a-tag{
+    background-color:transparent ;
+    text-decoration: none;
+    color: #00ABF0;
+}
